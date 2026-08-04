@@ -1,6 +1,7 @@
 import { cn } from "@sglara/cn";
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const { i18n, t } = useTranslation();
@@ -22,9 +23,9 @@ const Header = () => {
     >
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <div className="gap-6 mx-auto text-md text-yellow-400 text-center hidden md:flex">
-          <a href="#about" className="hover:text-yellow-200">
+          <Link to="/about" className="hover:text-yellow-200">
             {t("header.about")}
-          </a>
+          </Link>
           <a href="#projects" className="hover:text-yellow-200">
             {t("header.project")}
           </a>
