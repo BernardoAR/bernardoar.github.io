@@ -4,5 +4,17 @@
     "project": "Projetos",
     "certification": "Certificações",
     "contact": "Contato"
+  },
+  "sobre": {
+    "title": "Sobre Mim",
+    "description": [
+      "Sou desenvolvedor desde 2019, mas minha jornada na tecnologia começou em 2017, quando ingressei no Bacharelado em Sistemas de Informação. Durante a graduação, participei de projetos de extensão, pesquisa e ensino: experiências que fortaleceram minha base técnica e ampliaram minha visão sobre o desenvolvimento de software.",
+      "Ao longo desse período, tive contato com diferentes áreas da tecnologia, desde estrutura de dados até o desenvolvimento de aplicações web, mobile e desktop, construindo uma base sólida em diversas linguagens e paradigmas.",
+      "Minha carreira profissional teve início com um estágio, onde conheci de perto o desenvolvimento de software voltado a negócios. Entendi como funciona o trabalho em equipe, a divisão, além de aplicar meus conhecimentos da faculdade nele. Trabalhei principalmente com PHP, Javascript, HTML e CSS, aprendendo boas práticas de desenvolvimento e manutenção de sistemas.",
+      "Com o passar dos anos, direcionei o meu foco para tecnologias mais modernas e para infraestrutura em nuvem. Aprofundei meus conhecimentos em Javascript, React, React Native e GCP, além de adquirir a experiência na manutenção e evolução de sistemas legados.",
+      "Minha experiência mais recente, foi atuando com React, Typescript e AWS, participando de equipes que utilizavam metodologias ágeis e ampliando minha autonomia em arquitetura, planejamento junto do PO e infraestrutura cloud.",
+      "Tenho facilidade para aprender novas tecnologias e gosto de estar em constante evolução, buscando aprimorar minhas habilidades e acompanhar as mudanças do mercado."
+    ],
+    "buttonLinkedin": "Abrir LinkedIn"
   }
 }

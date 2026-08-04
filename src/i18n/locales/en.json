@@ -4,5 +4,17 @@
     "project": "Projects",
     "certification": "Certifications",
     "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "description": [
+      "I've been working as a software engineer since 2019, but my journey in technology began in 2017 when I started my Bachelor's degree in Information Systems. During college, I participated in extension, research, and teaching projects that strengthened my technical foundation and broadened my perspective on software development.",
+      "Throughout this period, I gained experience in different areas of technology, ranging from data structures to web, mobile, and desktop application development, building a solid foundation across multiple languages and programming paradigms.",
+      "My professional career began with an internship, where I experienced business-oriented software development firsthand. I learned how development teams collaborate, how responsibilities are divided, and how to apply the knowledge I've gained at university. I worked primarily with PHP, JavaScript, HTML, and CSS while learning software development best practices and system maintenance.",
+      "Over the years, I shifted my focus towards modern technologies and cloud infrastructure. I made my knowledge of JavaScript, React, React Native, and Google Cloud Platform (GCP) deeper while also gaining experience maintaining and modernizing legacy systems.",
+      "Most recently, I worked with React, TypeScript, and AWS as part of agile development teams. I also became more involved in software architecture, sprint planning alongside the Product Owner, and cloud infrastructure.",
+      "I'm a fast learner who enjoys exploring new technologies and continuously improving my skills to keep up with the ever-evolving tech industry."
+    ],
+    "buttonLinkedin": "Open LinkedIn"
   }
 }
