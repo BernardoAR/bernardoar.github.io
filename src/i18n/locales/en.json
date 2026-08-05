@@ -1,12 +1,23 @@
 {
   "header": {
+    "home": "Home",
     "about": "About",
     "project": "Projects",
+    "work": "Work",
     "certification": "Certifications",
     "contact": "Contact"
   },
+  "home": {
+    "title": "BernardoAR,",
+    "subtitle": "Software Engineer",
+    "description": [
+      "Software Engineer with experience since 2019, building modern web applications, designing cloud solutions, and evolving software for a wide range of business needs.",
+      "I primarily work with React, TypeScript, NestJS, PostgreSQL and AWS, with additional experience in Google Cloud Platform (GCP), React Native, PHP, Node.js, and maintaining legacy systems. I build user interfaces, APIs, and cloud infrastructure while collaborating in agile teams throughout the entire software development lifecycle, from planning to production.",
+      "I'm open to remote full-time and contract roles worldwide."
+    ]
+  },
   "about": {
-    "title": "About Me",
+    "title": "About",
     "description": [
       "I've been working as a software engineer since 2019, but my journey in technology began in 2017 when I started my Bachelor's degree in Information Systems. During college, I participated in extension, research, and teaching projects that strengthened my technical foundation and broadened my perspective on software development.",
       "Throughout this period, I gained experience in different areas of technology, ranging from data structures to web, mobile, and desktop application development, building a solid foundation across multiple languages and programming paradigms.",
