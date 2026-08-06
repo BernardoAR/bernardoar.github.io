@@ -27,5 +27,9 @@
       "I'm a fast learner who enjoys exploring new technologies and continuously improving my skills to keep up with the ever-evolving tech industry."
     ],
     "buttonLinkedin": "Open LinkedIn"
+  },
+  "certification": {
+    "title": "Certifications",
+    "description": "Below are my certifications. The ones I'm proud of having"
   }
 }
