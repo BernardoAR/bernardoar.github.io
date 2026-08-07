@@ -20,7 +20,7 @@ const Certification = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 items-center text-white p-12">
+    <div className="grid grid-cols-1 lg:grid-cols-2 items-center text-white p-10">
       <div className="text-justify">
         <h2 className="text-5xl text-center">{t("certification.title")}</h2>
         <p className="mt-4 pr-3">{t("certification.description")}</p>

@@ -3,7 +3,7 @@
     "home": "Home",
     "about": "About",
     "project": "Projects",
-    "work": "Work",
+    "experience": "Experiences",
     "certification": "Certifications",
     "contact": "Contact"
   },
@@ -16,6 +16,111 @@
       "I'm open to remote full-time and contract roles worldwide."
     ]
   },
+  "experience": {
+    "title": "Experiences",
+    "subtitle": "My professional experiences throughout my career.",
+    "description": [
+      {
+        "companyName": "@ Sistema Gerencial TXAI",
+        "location": "São José dos Campos, São Paulo, Brazil",
+        "title": "Software Engineer",
+        "dateStart": "May 2024",
+        "dateEnd": "Apr 2026",
+        "bullets": [
+          "Designed and implemented an workflow for signing documents, which includes PDF creation, automated signature requests, webhook based status check, signed document storage and notification, eliminating manual document handling across 100+ documents monthly.",
+          "Managed AWS Infrastructure in production and test environments, by configuring DNS, SSL/TLS certificates, load balancing, caching and application resilience while setting CI/CD pipelines in AWS CodePipeline to automate the lifecycle, from build to deployment.",
+          "Cooperated with the Product Owner to the evaluation of feasibility, scope and tradeoffs in new initiatives, independently researching for new solutions and integration possibilities with legacy and existing systems, providing technical expertise to influence the costs, timelines and sprint planning decisions.",
+          "Built REST APIs with Nest.js and PostgreSQL for implementation of core business workflows and integrations, while maintaining reliable data handling.",
+          "Developed responsive interfaces using React and a shared design system between internal systems, improving UI consistency and development efficiency while using caching, containerization, and automated testing to support application performance and reliability."
+        ],
+        "skills": [
+          "AWS",
+          "Docker",
+          "MySQL",
+          "PostgreSQL",
+          "PHP",
+          "Nest.js",
+          "Prisma",
+          "React",
+          "Redis",
+          "Redux",
+          "TanStack Query",
+          "Tailwind",
+          "TypeScript"
+        ]
+      },
+      {
+        "companyName": "@ AVA Software Solutions",
+        "location": "Joinville, Santa Catarina, Brazil",
+        "title": "Software Engineer",
+        "dateStart": "Jul 2021",
+        "dateEnd": "Mar 2024",
+        "bullets": [
+          "Redesigned the search and data retrieval strategy in an auction platform, decreasing the response time of complex queries from approximately ~70s to ~1s (98% improvement).",
+          "Improved a hotel management system in availability and performance while integrating application modules with payment system.",
+          "Migrated applications from other cloud services to Google Cloud Platform, with zero downtime, configuring VMs, Nginx, SSL, and CI/CD pipelines to modernize infrastructure and automate deployments.",
+          "Enhanced web and mobile applications for multiple clients, implementing features and fixing bugs."
+        ],
+        "skills": [
+          "AWS",
+          "Docker",
+          "Google Cloud Platform (GCP)",
+          "Java (Android)",
+          "JavaScript",
+          "MySQL",
+          "Next.js",
+          "Node.js",
+          "PHP",
+          "PostgreSQL",
+          "Redux",
+          "Tailwind",
+          "TypeScript"
+        ]
+      },
+      {
+        "companyName": "@ SGT Gestão e Tecnologia",
+        "location": "São Borja, Rio Grande do Sul, Brazil",
+        "title": "Software Engineer",
+        "dateStart": "Jul 2019",
+        "dateEnd": "Jul 2021",
+        "bullets": [
+          "Maintained web applications using PHP (CodeIgniter) and MySQL, delivering new features and solving issues across legacy management systems.",
+          "Introduced Git-based version control alongside other developers, replacing FTP-based file deployment and establishing a more structured development workflow within an agile development environment."
+        ],
+        "skills": [
+          "CodeIgniter",
+          "Docker",
+          "HTML",
+          "CSS",
+          "Javascript",
+          "jQuery",
+          "MySQL",
+          "PHP"
+        ]
+      },
+      {
+        "companyName": "@ Junior Enterprise (University)",
+        "location": "São Borja, Rio Grande do Sul, Brazil",
+        "title": "Software Developer",
+        "dateStart": "May 2018",
+        "dateEnd": "Feb 2020",
+        "bullets": [
+          "Developed web applications for local businesses using PHP (CodeIgniter) and MySQL, delivering new features, such as authentication, registration, and event enrollment.",
+          "Collaborated directly with business owners to gather requirements, translating business needs into new solutions, and having iteration with owners on early prototypes based on feedback."
+        ],
+        "skills": [
+          "Apache",
+          "CodeIgniter",
+          "HTML",
+          "CSS",
+          "Javascript",
+          "jQuery",
+          "MySQL",
+          "PHP"
+        ]
+      }
+    ]
+  },
   "about": {
     "title": "About",
     "description": [
@@ -26,7 +131,7 @@
       "Most recently, I worked with React, TypeScript, and AWS as part of agile development teams. I also became more involved in software architecture, sprint planning alongside the Product Owner, and cloud infrastructure.",
       "I'm a fast learner who enjoys exploring new technologies and continuously improving my skills to keep up with the ever-evolving tech industry."
     ],
-    "buttonLinkedin": "Open LinkedIn"
+    "buttonLinkedn": "Open LinkedIn"
   },
   "certification": {
     "title": "Certifications",

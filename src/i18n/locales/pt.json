@@ -3,7 +3,7 @@
     "home": "Início",
     "about": "Sobre",
     "project": "Projetos",
-    "work": "Trabalho",
+    "experience": "Experiências",
     "certification": "Certificações",
     "contact": "Contato"
   },
@@ -27,6 +27,111 @@
       "Tenho facilidade para aprender novas tecnologias e gosto de estar em constante evolução, buscando aprimorar minhas habilidades e acompanhar as mudanças do mercado."
     ],
     "buttonLinkedin": "Abrir LinkedIn"
+  },
+  "experience": {
+    "title": "Experiências",
+    "subtitle": "Minhas experiências profissionais ao passar do tempo.",
+    "description": [
+      {
+        "companyName": "Sistema Gerencial TXAI",
+        "location": "São José dos Campos, SP, Brasil",
+        "title": "Engenheiro de Software",
+        "dateStart": "Maio/2024",
+        "dateEnd": "Abr/2026",
+        "bullets": [
+          "Projetei e implementei um fluxo de trabalho para assinatura de documentos, que incluía criação de PDFs, requisições de assinaturas automatizado, checagem de status baseado em webhook, armazenamento do documento assinado, eliminando o manuseio manual dos documentos entre 100+ documentos mensais.",
+          "Gerenciei uma Infraestrutura AWS em ambientes de produção e de testes, configurando DNS, certificados SSL/TLS, load balancing, cache e resiliência de aplicação, além de configurar pipelines CI/CD para automatizar o ciclo de vida, do build ao deploy.",
+          "Cooperei com o Product Owner para a estimativa de viabilidade, escopo e compensações em novas iniciativas, pesquisando independentemente por novas soluções e possibilidades de integração com sistemas existentes e legados, provendo experiência técnica sobre a influência dos custos, da linha do tempo e decisões de planejamento de sprint.",
+          "Construí APIs REST com Nest.js e PostgreSQL, para implementação de fluxos de trabalho de negócio principais, enquanto mantinha tratamento de dados confiável.",
+          "Desenvolvi interfaces responsivas usando React e um design system compartilhado entre sistemas internos, melhorando a consistência de UI e eficiência de desenvolvimento enquanto usava cache, conteinerização, e testes automatizados para ajudar na performance e confiabilidade da aplicação."
+        ],
+        "skills": [
+          "AWS",
+          "Docker",
+          "MySQL",
+          "PostgreSQL",
+          "PHP",
+          "Nest.js",
+          "Prisma",
+          "React",
+          "Redis",
+          "Redux",
+          "TanStack Query",
+          "Tailwind",
+          "TypeScript"
+        ]
+      },
+      {
+        "companyName": "AVA Software Solutions",
+        "location": "Joinville, SC, Brasil",
+        "title": "Engenheiro de Software",
+        "dateStart": "Jul/2021",
+        "dateEnd": "Mar/2024",
+        "bullets": [
+          "Reformulei a pesquisa e estratégias de retorno de dados em uma plataforma de leilão, diminuindo o tempo de resposta de consultas complexas de aproximadamente ~70s para ~1s (Melhoria de 98%).",
+          "Melhorei um sistema gerenciador de hotel em disponibilidade e performance enquanto integrava módulos de aplicação com sistemas de pagamento.",
+          "Migrei aplicações de outros servidores cloud para o Google Cloud Platform, com zero downtime, configurando VMs, Nginx, SSL e pipelines CI/CD para modernizar a infraestrutura e automatizar deploys.",
+          "Aprimorei aplicativos web e mobile para vários clientes, implementando funcionalidades e corrigindo bugs."
+        ],
+        "skills": [
+          "AWS",
+          "Docker",
+          "Google Cloud Platform (GCP)",
+          "Java (Android)",
+          "JavaScript",
+          "MySQL",
+          "Next.js",
+          "Node.js",
+          "PHP",
+          "PostgreSQL",
+          "Redux",
+          "Tailwind",
+          "TypeScript"
+        ]
+      },
+      {
+        "companyName": "SGT Gestão e Tecnologia",
+        "location": "São Borja, RS, Brasil",
+        "title": "Engenheiro de Software",
+        "dateStart": "Jul/2019",
+        "dateEnd": "Jul/2021",
+        "bullets": [
+          "Mantive aplicaçÕes web usando PHP (CodeIgniter) e MySQL, entregando novas funcionalidade e corrigindo problemas em sistemas de gerenciamento legado.",
+          "Introduzi, junto de outros desenvolvedores, controle de versionamento Git, trocando a implantação de arquivos baseado em FTP e estabelecendo um fluxo de trabalho mais estruturado, dentro de um ambiente de desenvolvimento ágil."
+        ],
+        "skills": [
+          "CodeIgniter",
+          "Docker",
+          "HTML",
+          "CSS",
+          "Javascript",
+          "jQuery",
+          "MySQL",
+          "PHP"
+        ]
+      },
+      {
+        "companyName": "Empresa Júnior (Universidade)",
+        "location": "São Borja, RS, Brasil",
+        "title": "Desenvolvedor de Software",
+        "dateStart": "Maio/2018",
+        "dateEnd": "Fev/2020",
+        "bullets": [
+          "Desenvolvi aplicações web para negócios locais usando PHP (CodeIgniter) e MySQL, entregando novas funcionalidades, como autenticação, registro e inscrição de eventos",
+          "Colaborei diretamente com donos de negócios para pegar requisitos, traduzir necessidades de negócios em novas soluções, e interações repetidas com os donos nos protótipos iniciais baseado em feedback."
+        ],
+        "skills": [
+          "Apache",
+          "CodeIgniter",
+          "HTML",
+          "CSS",
+          "Javascript",
+          "jQuery",
+          "MySQL",
+          "PHP"
+        ]
+      }
+    ]
   },
   "certification": {
     "title": "Certificações",

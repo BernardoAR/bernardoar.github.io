@@ -6,9 +6,9 @@ const About = () => {
     returnObjects: true,
   }) as string[];
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 items-center text-white p-12">
+    <div className="grid grid-cols-1 lg:grid-cols-2 items-center text-white p-10">
       <div className="text-justify">
-        <h2 className="text-5xl text-center">{t("about.title")}</h2>
+        <h2 className="text-5xl">{t("about.title")}</h2>
         {descriptions.map((paragraph, index) => (
           <p key={index} className="mt-4 pr-3">
             {paragraph}
