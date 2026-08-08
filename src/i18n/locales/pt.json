@@ -13,7 +13,7 @@
     "description": [
       "Engenheiro de Software com experiência desde 2019, criando aplicações web modernas, arquitetando soluções em nuvem e evoluindo sistemas para diferentes contextos de negócio.",
       "Trabalho principalmente com React, Typescript, NestJS, PostgreSQLs e AWS, além de possuir experiência com Google Cloud Platform (GCP), React Native, PHP, Node.js e lidar com sistemas legados. Atuo no desenvolvimento de interfaces, APIs, infraestrutura cloud e colaboração em equipes ágeis, participando desde o planejamento até a entrega em produção.",
-      "Estou aberto a contrataçÕes CLT ou PJ no mundo inteiro."
+      "Estou aberto a contratações CLT ou PJ no mundo inteiro."
     ]
   },
   "about": {
@@ -27,6 +27,10 @@
       "Tenho facilidade para aprender novas tecnologias e gosto de estar em constante evolução, buscando aprimorar minhas habilidades e acompanhar as mudanças do mercado."
     ],
     "buttonLinkedin": "Abrir LinkedIn"
+  },
+  "project": {
+    "title": "Projetos",
+    "subtitle": "Abaixo estão os projetos que eu participei."
   },
   "experience": {
     "title": "Experiências",
@@ -96,7 +100,7 @@
         "dateStart": "Jul/2019",
         "dateEnd": "Jul/2021",
         "bullets": [
-          "Mantive aplicaçÕes web usando PHP (CodeIgniter) e MySQL, entregando novas funcionalidade e corrigindo problemas em sistemas de gerenciamento legado.",
+          "Mantive aplicações web usando PHP (CodeIgniter) e MySQL, entregando novas funcionalidade e corrigindo problemas em sistemas de gerenciamento legado.",
           "Introduzi, junto de outros desenvolvedores, controle de versionamento Git, trocando a implantação de arquivos baseado em FTP e estabelecendo um fluxo de trabalho mais estruturado, dentro de um ambiente de desenvolvimento ágil."
         ],
         "skills": [
@@ -136,5 +140,9 @@
   "certification": {
     "title": "Certificações",
     "description": "Abaixo está minha lista de certificações. Tenho orgulho de ter eles."
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Todos os meus dados de contato. Eu geralmente respondo em um dia útil"
   }
 }
