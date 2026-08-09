@@ -15,7 +15,7 @@ const Layout = () => {
       "
       >
         <Header />
-        <main className="px-6">
+        <main className="px-6 space-y-10">
           <section id="home" className="min-h-screen">
             <Home />
           </section>

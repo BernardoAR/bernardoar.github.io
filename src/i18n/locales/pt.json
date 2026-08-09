@@ -27,8 +27,22 @@
     "buttonLinkedin": "Abrir LinkedIn"
   },
   "project": {
+    "card": "Meus",
     "title": "Projetos",
-    "subtitle": "Abaixo estão os projetos que eu participei."
+    "subtitle": "Projetos que eu construí e tenho orgulho.",
+    "view": "Ver projeto",
+    "description": [
+      {
+        "category": "Lorem Ipsum",
+        "title": "Lorem Ipsum",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+      },
+      {
+        "category": "Lorem Ipsum",
+        "title": "Lorem Ipsum",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+      }
+    ]
   },
   "experience": {
     "card": "Minha",
