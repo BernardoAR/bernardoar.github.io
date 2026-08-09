@@ -1,19 +1,17 @@
 {
   "header": {
     "home": "Início",
-    "about": "Sobre",
+    "experience": "Experiência",
     "project": "Projetos",
-    "experience": "Experiências",
     "certification": "Certificações",
+    "about": "Sobre",
     "contact": "Contato"
   },
   "home": {
+    "card": "Olá, me chamo",
     "title": "Bernardo",
-    "subtitle": "Engenheiro de Software",
     "description": [
-      "Engenheiro de Software com experiência desde 2019, criando aplicações web modernas, arquitetando soluções em nuvem e evoluindo sistemas para diferentes contextos de negócio.",
-      "Trabalho principalmente com React, Typescript, NestJS, PostgreSQLs e AWS, além de possuir experiência com Google Cloud Platform (GCP), React Native, PHP, Node.js e lidar com sistemas legados. Atuo no desenvolvimento de interfaces, APIs, infraestrutura cloud e colaboração em equipes ágeis, participando desde o planejamento até a entrega em produção.",
-      "Estou aberto a contratações CLT ou PJ no mundo inteiro."
+      "Engenheiro de Software focado em trazer novas soluções confiáveis, escaláveis e de impacto"
     ]
   },
   "about": {

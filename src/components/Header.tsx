@@ -1,6 +1,8 @@
 import { cn } from "@sglara/cn";
 import { useTranslation } from "react-i18next";
 import { NavLink, useNavigate } from "react-router-dom";
+import DarkMode from "./DarkMode";
+import Language from "./Language";
 
 type Routes = {
   id: string;
@@ -8,17 +10,17 @@ type Routes = {
   label: string;
 };
 const Header = () => {
-  const { i18n, t } = useTranslation();
+  const { t } = useTranslation();
   const routes: Routes[] = [
     { id: "home", to: "/", label: "header.home" },
-    { id: "about", to: "/about", label: "header.about" },
-    { id: "project", to: "/project", label: "header.project" },
     { id: "experience", to: "/experience", label: "header.experience" },
+    { id: "project", to: "/project", label: "header.project" },
     {
       id: "certification",
       to: "/certification",
       label: "header.certification",
     },
+    { id: "about", to: "/about", label: "header.about" },
     { id: "contact", to: "/contact", label: "header.contact" },
   ];
   const navigate = useNavigate();
@@ -35,7 +37,7 @@ const Header = () => {
     const element = document.getElementById(id);
 
     if (element) {
-      const y = element.getBoundingClientRect().top + window.scrollY - 80;
+      const y = element.getBoundingClientRect().top + window.scrollY - 60;
 
       window.scrollTo({
         top: y,
@@ -46,39 +48,39 @@ const Header = () => {
   return (
     <header
       className={cn(
-        "sticky hidden md:flex top-0 z-50 items-center gap-0.5 p-1.5 transition-all duration-300",
+        "md:flex rounded-xl mx-auto h-16 max-w-7xl items-center justify-between px-6 py-6 lg:px-10",
       )}
     >
-      <nav className="md:flex rounded-xl mx-auto h-16 max-w-7xl items-center justify-between px-6 border border-white/10  bg-gray-900">
-        <div className="gap-6 mx-auto text-md text-primary text-center hidden md:flex">
-          {routes.map(({ id, to, label }) => (
-            <NavLink
-              to={to}
-              className={({ isActive }) =>
-                cn(
-                  "hover:text-primary-light",
-                  isActive && "relative text-primary-light",
-                )
-              }
-              onClick={(event) => handleNavigation(event, to, id)}
-            >
-              {({ isActive }) => (
-                <div className="align-middle">
-                  {t(label)}
-                  {isActive && (
-                    <div className="mt-1 h-1 w-1 mx-auto rounded-full bg-yellow-200" />
-                  )}
-                </div>
-              )}
-            </NavLink>
-          ))}
+      <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
+        {"</>"}
+      </div>
+      <nav className="hidden items-center gap-8 text-sm md:flex">
+        {routes.map(({ id, to, label }) => (
+          <NavLink
+            to={to}
+            className={({ isActive }) =>
+              cn(
+                "text-slate-600 transition hover:text-slate-950 dark:text-slate-400 dark:hover:text-white",
+                isActive && "relative dark:text-white font-semibold",
+              )
+            }
+            onClick={(event) => handleNavigation(event, to, id)}
+          >
+            {({ isActive }) => (
+              <div className="align-middle">
+                {t(label)}
+                {isActive && (
+                  <div className="mt-1 h-0.5 w-full mx-auto rounded-full bg-blue-600 dark:bg-blue-400" />
+                )}
+              </div>
+            )}
+          </NavLink>
+        ))}
+        <div className="flex flex-row space-x-5">
+          <Language />
+          <DarkMode />
         </div>
       </nav>
-      <div className="text-secondary space-x-5">
-        <button onClick={() => i18n.changeLanguage("pt")}>PT</button>
-
-        <button onClick={() => i18n.changeLanguage("en")}>En</button>
-      </div>
     </header>
   );
 };

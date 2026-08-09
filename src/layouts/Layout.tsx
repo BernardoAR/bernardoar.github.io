@@ -8,37 +8,40 @@ import Certification from "../pages/Certification";
 
 const Layout = () => {
   return (
-    <>
-      <Header />
-
-      <main className="pt-4 sm:pt-8 md:px-16 md:pt-12 lg:pt-16">
+    <section className="relative bg-slate-50 text-slate-950 transition-colors duration-500 dark:bg-slate-950/98 dark:text-white">
+      <div
+        className="
+        bg-linear-to-b dark:from-[rgb(4,11,32)] dark:to-[rgb(10,28,48)]
+      "
+      >
+        <Header />
         <main>
           <section id="home" className="min-h-screen">
             <Home />
-          </section>
-
-          <section id="about" className="min-h-screen">
-            <About />
-          </section>
-
-          <section id="project" className="min-h-screen">
-            <Project />
           </section>
 
           <section id="experience" className="min-h-screen">
             <Experience />
           </section>
 
+          <section id="project" className="min-h-screen">
+            <Project />
+          </section>
+
           <section id="certification" className="min-h-screen">
             <Certification />
+          </section>
+
+          <section id="about" className="min-h-screen">
+            <About />
           </section>
 
           <section id="contact" className="min-h-screen">
             <Contact />
           </section>
         </main>
-      </main>
-    </>
+      </div>
+    </section>
   );
 };
 
