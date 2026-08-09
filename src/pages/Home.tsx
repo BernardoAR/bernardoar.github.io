@@ -6,10 +6,10 @@ const Home = () => {
     returnObjects: true,
   }) as string[];
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 items-center text-white p-12">
+    <div className="grid grid-cols-1 lg:grid-cols-2 items-center text-secondary p-10">
       <div>
         <h2 className="text-5xl">{t("home.title")}</h2>
-        <h3 className="text-4xl">{t("home.subtitle")}</h3>
+        <h3 className="text-4xl text-primary">{t("home.subtitle")}</h3>
         {descriptions.map((paragraph, index) => (
           <p key={index} className="mt-4 pr-3">
             {paragraph}

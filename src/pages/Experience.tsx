@@ -15,10 +15,12 @@ const Experience = () => {
     returnObjects: true,
   }) as TExperienceDescription[];
   return (
-    <div className="grid items-center text-white p-10 space-y-4">
+    <div className="grid items-center text-secondary p-10 space-y-4">
       <div className="text-center">
         <h2 className="text-5xl">{t("experience.title")}</h2>
-        <h3 className="text-white/40 text-2xl">{t("experience.subtitle")}</h3>
+        <h3 className="text-secondary/40 text-2xl">
+          {t("experience.subtitle")}
+        </h3>
       </div>
       <div className="flex flex-col lg:items-center lg:justify-center w-full space-y-7">
         {experiences.map((values, idx) => (

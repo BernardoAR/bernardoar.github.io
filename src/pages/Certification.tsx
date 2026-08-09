@@ -20,10 +20,15 @@ const Certification = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 items-center text-white p-10">
-      <div className="text-justify">
+    <div className="grid items-center text-secondary p-10">
+      <div className="text-center">
         <h2 className="text-5xl text-center">{t("certification.title")}</h2>
-        <p className="mt-4 pr-3">{t("certification.description")}</p>
+        <h3 className="text-secondary/40 text-2xl">
+          {t("certification.subtitle")}
+        </h3>
+      </div>
+
+      <div className="text-justify">
         {certifications.map(({ title, href }, index) => (
           <p>
             <a
@@ -36,9 +41,6 @@ const Certification = () => {
             </a>
           </p>
         ))}
-      </div>
-      <div className="lg:flex lg:flex-col lg:items-center lg:justify-center w-full">
-        <div className="mt-5 bg-amber-50 w-100 h-100"> Placeholder</div>
       </div>
     </div>
   );
