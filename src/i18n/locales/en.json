@@ -31,8 +31,9 @@
     "subtitle": "Below there are projects I participated."
   },
   "experience": {
-    "title": "Experiences",
-    "subtitle": "My professional experiences throughout my career.",
+    "card": "My",
+    "title": "Experience",
+    "subtitle": "My journey so far.",
     "description": [
       {
         "companyName": "@ Sistema Gerencial TXAI",
