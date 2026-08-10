@@ -4,6 +4,8 @@ type TProjectDescription = {
   category: string;
   title: string;
   description: string;
+  href: string;
+  github: string;
 };
 const Project = () => {
   const { t } = useTranslation();
@@ -20,7 +22,7 @@ const Project = () => {
               {t("project.title")}
             </span>
           </h2>
-
+          <div className="mt-7 h-1 w-12 rounded-full bg-blue-600 dark:bg-blue-400" />
           <p className="mt-4 text-slate-600 dark:text-slate-400">
             {t("project.subtitle")}
           </p>
@@ -28,7 +30,9 @@ const Project = () => {
       </div>
 
       <div className="relative z-20 mx-auto mt-10 flex justify-center">
+        {/* //!Todo Placeholder
         <span className="text-5xl drop-shadow-lg">Placeholder Bat 🦇</span>
+         */}
       </div>
 
       <div className="-mt-2 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -109,7 +113,7 @@ const Project = () => {
                   "
               >
                 <a
-                  href="#"
+                  href={project.href}
                   className="
                       group/link flex items-center gap-2
                       text-sm font-medium
@@ -122,8 +126,10 @@ const Project = () => {
 
                 <div className="flex gap-3">
                   <a
-                    href="#"
+                    href={project.github}
                     aria-label="GitHub"
+                    rel="noreferrer"
+                    target="_blank"
                     className="text-slate-500 hover:text-slate-900 dark:text-slate-500 dark:hover:text-white"
                   >
                     <SiGithub />

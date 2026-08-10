@@ -77,9 +77,10 @@ const Home = () => {
           </a>
         </div>
       </div>
+      {/* //!Todo Placeholder 
       <div className="relative flex min-h-130 items-center justify-center">
         <div className="w-full h-full bg-white text-gray-800"> Placeholder</div>
-      </div>
+      </div> */}
       <div
         className="
           absolute bottom-6 left-1/2

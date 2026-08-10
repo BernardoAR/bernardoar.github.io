@@ -15,16 +15,22 @@
     ]
   },
   "about": {
-    "title": "Sobre",
+    "card": "Um pouco",
+    "title": "sobre mim",
+    "details": "COM O QUE EU TRABALHO",
+    "beyond": {
+      "title": "Além do Código",
+      "description": "Quando não estou fazendo códigos, você pode me encontrar jogando jogos, explorando novas tecnologias ou trabalhando em projetos pessoais, e",
+      "art": "gosto de desenhar",
+      "artDesc": "(as ilustrações neste site fui eu que fiz).",
+      "footer": "E eu também amo café.",
+      "footerBold": "MUITO."
+    },
     "description": [
-      "Sou desenvolvedor desde 2019, mas minha jornada na tecnologia começou em 2017, quando ingressei no Bacharelado em Sistemas de Informação. Durante a graduação, participei de projetos de extensão, pesquisa e ensino: experiências que fortaleceram minha base técnica e ampliaram minha visão sobre o desenvolvimento de software.",
-      "Ao longo desse período, tive contato com diferentes áreas da tecnologia, desde estrutura de dados até o desenvolvimento de aplicações web, mobile e desktop, construindo uma base sólida em diversas linguagens e paradigmas.",
-      "Minha carreira profissional teve início com um estágio, onde conheci de perto o desenvolvimento de software voltado a negócios. Entendi como funciona o trabalho em equipe, a divisão, além de aplicar meus conhecimentos da faculdade nele. Trabalhei principalmente com PHP, Javascript, HTML e CSS, aprendendo boas práticas de desenvolvimento e manutenção de sistemas.",
-      "Com o passar dos anos, direcionei o meu foco para tecnologias mais modernas e para infraestrutura em nuvem. Aprofundei meus conhecimentos em Javascript, React, React Native e GCP, além de adquirir a experiência na manutenção e evolução de sistemas legados.",
-      "Minha experiência mais recente, foi atuando com React, Typescript e AWS, participando de equipes que utilizavam metodologias ágeis e ampliando minha autonomia em arquitetura, planejamento junto do PO e infraestrutura cloud.",
-      "Tenho facilidade para aprender novas tecnologias e gosto de estar em constante evolução, buscando aprimorar minhas habilidades e acompanhar as mudanças do mercado."
-    ],
-    "buttonLinkedin": "Abrir LinkedIn"
+      "Sou desenvolvedor profissional desde 2019, mas minha jornada na área de tecnologia começou em 2017, quando ingressei no Bacharelado em Sistema de Informação. Durante minha graduação, participei em projetos de extensão, pesquisa e ensino — experiências que construíram base sólida em desenvolvimento de software.",
+      "Desde então, participei de contextos e tecnologias diferentes, começando com sistemas voltados em pequenas cidades e regiões e evoluindo para o desenvolvimento de aplicações modernas com infraestrutura em nuvem. Essas experiências me deram contato com arquitetura, design system e trabalho em equipe, sempre com foco em planejamento de soluções e trazer valor de negócio.",
+      "Hoje, gosto de transformar problemas complexos e manuais em soluções simples. Estou sempre aprendendo e buscando não apenas entender como construir software, mas construí-los de forma eficiente e performática."
+    ]
   },
   "project": {
     "card": "Meus",
@@ -33,9 +39,11 @@
     "view": "Ver projeto",
     "description": [
       {
-        "category": "Lorem Ipsum",
-        "title": "Lorem Ipsum",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        "category": "Frontend",
+        "title": "Este site.",
+        "description": "Uma página de portfolio completamente customizada, com foco em usabilidade e mostrar como desenvolvo frontend.",
+        "href": "#",
+        "github": "https://github.com/BernardoAR/bernardoar.github.io"
       },
       {
         "category": "Lorem Ipsum",

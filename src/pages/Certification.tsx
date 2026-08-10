@@ -48,7 +48,7 @@ const Certification = () => {
             {t("certification.title")}
           </span>
         </h2>
-
+        <div className="mt-7 h-1 w-12 rounded-full bg-blue-600 dark:bg-blue-400" />
         <p className="mt-4 text-slate-600 dark:text-slate-400">
           {t("certification.subtitle")}
         </p>
@@ -149,9 +149,11 @@ const Certification = () => {
           ))}
         </div>
 
+        {/* //!Todo Placeholder
         <div className="relative hidden lg:block">
           <div className="bg-white h-full">Placeholder</div>
         </div>
+           */}
       </div>
     </div>
   );

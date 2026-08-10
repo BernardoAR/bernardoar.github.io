@@ -65,9 +65,10 @@ const Contact = () => {
         ))}
       </div>
 
+      {/* //!Todo Placeholder
       <div className="relative mx-auto mt-14 h-32 max-w-md bg-white">
         placeholder
-      </div>
+      </div> */}
     </div>
   );
 };

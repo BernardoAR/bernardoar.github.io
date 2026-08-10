@@ -15,16 +15,22 @@
     ]
   },
   "about": {
-    "title": "About",
+    "card": "A little bit",
+    "title": "about me",
+    "details": "WHAT I WORK WITH",
+    "beyond": {
+      "title": "Beyond Code",
+      "description": "When I'm not coding, you can find me playing games, exploring new tech, working in personal projects, and",
+      "art": "I enjoy drawing",
+      "artDesc": "(the illustration in this site was made by me).",
+      "footer": "And I love coffee.",
+      "footerBold": "A LOT."
+    },
     "description": [
-      "I've been working as a software engineer since 2019, but my journey in technology began in 2017 when I started my Bachelor's degree in Information Systems. During college, I participated in extension, research, and teaching projects that strengthened my technical foundation and broadened my perspective on software development.",
-      "Throughout this period, I gained experience in different areas of technology, ranging from data structures to web, mobile, and desktop application development, building a solid foundation across multiple languages and programming paradigms.",
-      "My professional career began with an internship, where I experienced business-oriented software development firsthand. I learned how development teams collaborate, how responsibilities are divided, and how to apply the knowledge I've gained at university. I worked primarily with PHP, JavaScript, HTML, and CSS while learning software development best practices and system maintenance.",
-      "Over the years, I shifted my focus towards modern technologies and cloud infrastructure. I made my knowledge of JavaScript, React, React Native, and Google Cloud Platform (GCP) deeper while also gaining experience maintaining and modernizing legacy systems.",
-      "Most recently, I worked with React, TypeScript, and AWS as part of agile development teams. I also became more involved in software architecture, sprint planning alongside the Product Owner, and cloud infrastructure.",
-      "I'm a fast learner who enjoys exploring new technologies and continuously improving my skills to keep up with the ever-evolving tech industry."
-    ],
-    "buttonLinkedn": "Open LinkedIn"
+      "I've been a professional software developer since 2019, but my journey in technology began in 2017, when I started my Bachelor's degree in Information Systems. During my studies, I participated in extension, research and teaching projects — experiences that helped me build a strong base in software development.",
+      "Since then, I've worked in different contexts and technologies, starting with systems designed for small cities and regional organizations, then evolved to develop modern applications with cloud infrastructure. These experiences gave me exposure to software architecture, system design, and teamwork, always focused in solution planning and delivering business value",
+      "Nowadays, I enjoy turning complex and manual processes into simple solutions. I'm always learning and searching not only to understand how to build software, but building then efficiently and with strong performance."
+    ]
   },
   "project": {
     "card": "My",
@@ -33,9 +39,11 @@
     "view": "View project",
     "description": [
       {
-        "category": "Lorem Ipsum",
-        "title": "Lorem Ipsum",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        "category": "Frontend",
+        "title": "This website.",
+        "description": "A portfolio webpage completely customized, focused in usability and show how I develop frontend apps.",
+        "href": "#",
+        "github": "https://github.com/BernardoAR/bernardoar.github.io"
       },
       {
         "category": "Lorem Ipsum",
