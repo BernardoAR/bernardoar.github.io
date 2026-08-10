@@ -8,11 +8,11 @@ export default function useScrollRouting() {
   const location = useLocation();
 
   const isProgrammaticScroll = useRef(false);
-  const targetSection = useRef(null);
+  const targetSection = useRef<string | null>(null);
 
   // Navegação feita pelo header
   const scrollToSection = useCallback(
-    (id) => {
+    (id: string) => {
       const section = document.getElementById(id);
 
       if (!section) return;
@@ -57,7 +57,9 @@ export default function useScrollRouting() {
    * Scroll do usuário → atualiza a URL
    */
   useEffect(() => {
-    const sections = Array.from(document.querySelectorAll("section[id]"));
+    const sections = Array.from(
+      document.querySelectorAll<HTMLElement>("section[id]"),
+    );
 
     if (!sections.length) return;
 
