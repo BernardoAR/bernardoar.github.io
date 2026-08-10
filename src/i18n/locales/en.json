@@ -151,11 +151,14 @@
     ]
   },
   "certification": {
+    "card": "My",
     "title": "Certifications",
-    "subtitle": "Below are my certifications. The ones I'm proud of having"
+    "subtitle": "Continuous learning. Continuous growth.",
+    "verified": "Verified"
   },
   "contact": {
-    "title": "Contact",
-    "subtitle": "All my contacts data. I typically reply within one business day."
+    "card": "Below are",
+    "title": "My Contacts",
+    "subtitle": "Have a project, opportunity or just want to speak about software? Feel free to reach out!"
   }
 }

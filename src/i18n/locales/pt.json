@@ -151,11 +151,14 @@
     ]
   },
   "certification": {
+    "card": "Minhas",
     "title": "Certificações",
-    "subtitle": "Abaixo está minha lista de certificações. Tenho orgulho de ter eles."
+    "subtitle": "Aprendizado contínuo. Crescimento contínuo.",
+    "verified": "Verificado"
   },
   "contact": {
-    "title": "Contato",
-    "subtitle": "Todos os meus dados de contato. Eu geralmente respondo em um dia útil"
+    "card": "Meus Contatos",
+    "title": "Estão Abaixo.",
+    "subtitle": "Possui algum projeto, oportunidade ou quer falar sobre software? Sinta-se livre para me chamar."
   }
 }

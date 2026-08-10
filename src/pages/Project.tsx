@@ -11,40 +11,31 @@ const Project = () => {
     returnObjects: true,
   }) as TProjectDescription[];
   return (
-    <div>
-      <div
-        className="
-          pointer-events-none absolute inset-0
-          bg-[radial-gradient(circle_at_50%_20%,rgba(99,102,241,0.08),transparent_35%)]
-          dark:bg-[radial-gradient(circle_at_50%_20%,rgba(59,130,246,0.10),transparent_35%)]
-        "
-      />
+    <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10">
+      <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
+        <div>
+          <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
+            {t("project.card")}{" "}
+            <span className="text-blue-600 dark:text-blue-400">
+              {t("project.title")}
+            </span>
+          </h2>
 
-      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10">
-        <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
-          <div>
-            <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              {t("project.card")}{" "}
-              <span className="text-blue-600 dark:text-blue-400">
-                {t("project.title")}
-              </span>
-            </h2>
-
-            <p className="mt-4 text-slate-600 dark:text-slate-400">
-              {t("project.subtitle")}
-            </p>
-          </div>
+          <p className="mt-4 text-slate-600 dark:text-slate-400">
+            {t("project.subtitle")}
+          </p>
         </div>
+      </div>
 
-        <div className="relative z-20 mx-auto mt-10 flex justify-center">
-          <span className="text-5xl drop-shadow-lg">Placeholder Bat 🦇</span>
-        </div>
+      <div className="relative z-20 mx-auto mt-10 flex justify-center">
+        <span className="text-5xl drop-shadow-lg">Placeholder Bat 🦇</span>
+      </div>
 
-        <div className="-mt-2 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project, index) => (
-            <article
-              key={index}
-              className="
+      <div className="-mt-2 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {projects.map((project, index) => (
+          <article
+            key={index}
+            className="
                 group flex flex-col overflow-hidden
                 rounded-2xl border
                 border-slate-200
@@ -56,9 +47,9 @@ const Project = () => {
                 dark:bg-slate-900/40
                 dark:hover:border-blue-400/30
               "
-            >
-              <div
-                className="
+          >
+            <div
+              className="
                   relative flex h-44 items-center justify-center
                   overflow-hidden
                   bg-linear-to-br
@@ -67,9 +58,9 @@ const Project = () => {
                   dark:via-indigo-950/30
                   dark:to-slate-950
                 "
-              >
-                <div
-                  className="
+            >
+              <div
+                className="
                     h-24 w-32 rounded-xl border
                     border-blue-200 bg-white/80
                     shadow-xl
@@ -78,14 +69,14 @@ const Project = () => {
                     dark:border-blue-400/20
                     dark:bg-slate-900
                   "
-                >
-                  <div className="flex h-full items-center justify-center text-2xl font-bold text-blue-500">
-                    {"</>"}
-                  </div>
+              >
+                <div className="flex h-full items-center justify-center text-2xl font-bold text-blue-500">
+                  {"</>"}
                 </div>
+              </div>
 
-                <span
-                  className="
+              <span
+                className="
                     absolute left-4 top-4
                     rounded-full border
                     border-blue-200 bg-white/70
@@ -95,54 +86,53 @@ const Project = () => {
                     dark:bg-slate-950/50
                     dark:text-blue-300
                   "
-                >
-                  {project.category}
-                </span>
-              </div>
+              >
+                {project.category}
+              </span>
+            </div>
 
-              <div className="flex flex-1 flex-col p-6">
-                <h3 className="text-xl font-bold">{project.title}</h3>
+            <div className="flex flex-1 flex-col p-6">
+              <h3 className="text-xl font-bold">{project.title}</h3>
 
-                <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
-                  {project.description}
-                </p>
+              <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-400">
+                {project.description}
+              </p>
 
-                <div className="mt-5 flex flex-wrap gap-2"></div>
+              <div className="mt-5 flex flex-wrap gap-2"></div>
 
-                <div
-                  className="
+              <div
+                className="
                     mt-auto flex items-center
                     justify-between border-t
                     border-slate-200 pt-5
                     dark:border-slate-800
                   "
-                >
-                  <a
-                    href="#"
-                    className="
+              >
+                <a
+                  href="#"
+                  className="
                       group/link flex items-center gap-2
                       text-sm font-medium
                       text-blue-600
                       dark:text-blue-400
                     "
-                  >
-                    {t("project.view")}
-                  </a>
+                >
+                  {t("project.view")}
+                </a>
 
-                  <div className="flex gap-3">
-                    <a
-                      href="#"
-                      aria-label="GitHub"
-                      className="text-slate-500 hover:text-slate-900 dark:text-slate-500 dark:hover:text-white"
-                    >
-                      <SiGithub />
-                    </a>
-                  </div>
+                <div className="flex gap-3">
+                  <a
+                    href="#"
+                    aria-label="GitHub"
+                    className="text-slate-500 hover:text-slate-900 dark:text-slate-500 dark:hover:text-white"
+                  >
+                    <SiGithub />
+                  </a>
                 </div>
               </div>
-            </article>
-          ))}
-        </div>
+            </div>
+          </article>
+        ))}
       </div>
     </div>
   );

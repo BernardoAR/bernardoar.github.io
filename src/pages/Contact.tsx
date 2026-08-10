@@ -1,54 +1,72 @@
+import { CiMail } from "react-icons/ci";
+import { FaLinkedin } from "react-icons/fa";
+import { SiGithub } from "react-icons/si";
+import SocialButton from "../components/SocialButton";
 import { useTranslation } from "react-i18next";
-
 type ContactData = {
-  title: string;
-  value: string;
+  label: string;
+  icon: React.ReactNode;
   href: string;
 };
+const contacts: ContactData[] = [
+  {
+    label: "Email",
+    icon: <CiMail size={18} />,
+    href: "mailto:contato.bernardoar@gmail.com",
+  },
+  {
+    label: "LinkedIn",
+    icon: <FaLinkedin size={18} />,
+    href: "https://linkedin.com/in/bernardoroballo",
+  },
+  {
+    label: "GitHub",
+    icon: <SiGithub size={18} />,
+    href: "https://github.com/BernardoAR",
+  },
+];
 const Contact = () => {
   const { t } = useTranslation();
-  const contacts: ContactData[] = [
-    {
-      title: "Email",
-      value: "contato.bernardoar@gmail.com",
-      href: "mailto:contato.bernardoar@gmail.com",
-    },
-    {
-      title: "LinkedIn",
-      value: "bernardoroballo",
-      href: "https://linkedin.com/in/bernardoroballo",
-    },
-    {
-      title: "GitHub",
-      value: "BernardoAR",
-      href: "https://github.com/BernardoAR",
-    },
-  ];
-
   return (
-    <div className="grid items-center text-secondary p-10 space-y-4">
-      <div className="text-center">
-        <h2 className="text-5xl">{t("contact.title")}</h2>
-        <h3 className="text-secondary/40 text-2xl">{t("contact.subtitle")}</h3>
+    <div className="relative z-10 mx-auto w-full max-w-4xl text-center">
+      <h2
+        className="
+            mt-5 text-5xl font-bold
+            tracking-tight
+            sm:text-6xl md:text-7xl
+          "
+      >
+        {t("contact.card")}
+        <br />
+        <span className="text-blue-600 dark:text-blue-400">
+          {t("contact.title")}
+        </span>
+      </h2>
+
+      <p
+        className="
+            mx-auto mt-7 max-w-xl
+            text-lg leading-8
+            text-slate-600
+            dark:text-slate-400
+          "
+      >
+        {t("contact.subtitle")}
+      </p>
+
+      <div className="mt-10 flex justify-center gap-3">
+        {contacts.map((contact, idx) => (
+          <SocialButton
+            key={idx}
+            href={contact.href}
+            label={contact.label}
+            icon={contact.icon}
+          />
+        ))}
       </div>
 
-      <div className="rounded-xl border border-white/10 bg-gray-900 p-6 space-y-4 w-full lg:w-5/12 mx-auto">
-        {contacts.map((value, idx) => (
-          <div
-            key={idx}
-            className="flex flex-col text-sm justify-between space-y-2"
-          >
-            <div>
-              <div className="font-bold text-secondary/70">{value.title}</div>
-            </div>
-            <div className="text-sm">
-              <a className="underline" href={value.href} target="_blank">
-                {value.value}
-              </a>
-            </div>
-            <hr />
-          </div>
-        ))}
+      <div className="relative mx-auto mt-14 h-32 max-w-md bg-white">
+        placeholder
       </div>
     </div>
   );
