@@ -44,8 +44,10 @@ const Experience = () => {
                 className="relative grid gap-6 sm:grid-cols-[115px_1fr]"
               >
                 <div className="relative pt-5 text-sm text-slate-500 dark:text-slate-500">
-                  <span>
-                    {experience.dateStart} <br /> {experience.dateEnd}
+                  <span className="w-full justify-evenly flex flex-row sm:flex-col font-bold">
+                    <div>{experience.dateStart}</div>
+                    <div className="w-12 h-1 bg-blue-500 my-auto sm:hidden" />
+                    <div>{experience.dateEnd}</div>
                   </span>
 
                   <span

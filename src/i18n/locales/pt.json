@@ -168,5 +168,6 @@
     "card": "Meus Contatos",
     "title": "Estão Abaixo.",
     "subtitle": "Possui algum projeto, oportunidade ou quer falar sobre software? Sinta-se livre para me chamar."
-  }
+  },
+  "footer": "Construído com React · TypeScript · Tailwind"
 }

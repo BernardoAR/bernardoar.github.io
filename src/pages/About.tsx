@@ -45,7 +45,7 @@ const About = () => {
     returnObjects: true,
   }) as string[];
   return (
-    <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10">
+    <div className="relative z-10 mx-auto max-w-7xl lg:px-10">
       <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
         {t("about.card")}{" "}
         <span className="text-blue-600 dark:text-blue-400">
@@ -54,9 +54,12 @@ const About = () => {
       </h2>
       <div className="mt-7 h-1 w-12 rounded-full bg-blue-600 dark:bg-blue-400"></div>
       <div className="grid gap-10 lg:grid-cols-[1fr_280px]">
-        <div className="mt-4 text-slate-600 dark:text-slate-400">
+        <div className="mt-4 text-slate-600 dark:text-slate-400 text-justify hyphens-auto">
           {descriptions.map((paragraph, index) => (
-            <p key={index} className="mt-6 max-w-3xl text-lg leading-8 ">
+            <p
+              key={index}
+              className="mt-6 max-w-3xl text-md sm:text-lg leading-8 "
+            >
               {paragraph}
             </p>
           ))}

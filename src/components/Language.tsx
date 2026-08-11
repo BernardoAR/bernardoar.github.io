@@ -1,22 +1,25 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 type Lang = "pt" | "en";
+
 const Language = () => {
   const { i18n } = useTranslation();
-  const [lang, setLang] = useState<Lang>(
-    (localStorage.getItem("lang") as Lang) || "en",
-  );
+
+  const lang = (i18n.language?.split("-")[0] as Lang) || "en";
+
   useEffect(() => {
     localStorage.setItem("lang", lang);
-    i18n.changeLanguage(lang);
-  }, [i18n, lang]);
+  }, [lang]);
+
+  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const newLang = e.target.value as Lang;
+
+    i18n.changeLanguage(newLang);
+  };
+
   return (
-    <select
-      className="text-2xl"
-      onChange={(e) => setLang(e.target.value as Lang)}
-      value={lang}
-    >
+    <select className="text-2xl" value={lang} onChange={handleChange}>
       <option value="en">🇺🇸</option>
       <option value="pt">🇧🇷</option>
     </select>

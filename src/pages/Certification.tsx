@@ -40,7 +40,7 @@ const Certification = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10">
+    <div className="relative z-10 mx-auto max-w-7xl lg:px-10">
       <div className="mb-14">
         <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
           {t("certification.card")}{" "}

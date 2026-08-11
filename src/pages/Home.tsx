@@ -16,7 +16,7 @@ const Home = () => {
     returnObjects: true,
   }) as string[];
   return (
-    <div className="relative z-10 mx-auto grid min-h-[calc(100vh-88px)] max-w-7xl grid-cols-1 items-center gap-12 px-6 pb-16 pt-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-10">
+    <div className="relative z-10 mx-auto grid min-h-[calc(100vh-88px)] max-w-7xl grid-cols-1 items-center gap-12 pb-16 pt-8 lg:grid-cols-[0.9fr_1.1fr] lg:px-10">
       <div className="relative z-10 max-w-xl">
         <p className="text-lg font-medium text-blue-600 dark:text-blue-400">
           {t("home.card")}

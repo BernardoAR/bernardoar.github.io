@@ -167,6 +167,7 @@
   "contact": {
     "card": "Below are",
     "title": "My Contacts",
-    "subtitle": "Have a project, opportunity or just want to speak about software? Feel free to reach out!"
-  }
+    "subtitle": "Have a project, opportunity or just want to speak about software? Feel free to reach out."
+  },
+  "footer": "Built with React · TypeScript · Tailwind"
 }

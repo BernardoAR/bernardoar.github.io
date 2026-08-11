@@ -13,7 +13,7 @@ const Project = () => {
     returnObjects: true,
   }) as TProjectDescription[];
   return (
-    <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10">
+    <div className="relative z-10 mx-auto max-w-7xl lg:px-10">
       <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
         <div>
           <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
