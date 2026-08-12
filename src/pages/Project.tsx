@@ -1,5 +1,12 @@
 import { useTranslation } from "react-i18next";
 import { SiGithub } from "react-icons/si";
+import charHolB from "../assets/project/char-hol-b.png";
+import charHolBOv from "../assets/project/char-hol-b-overlay.png";
+import charHolHr from "../assets/project/char-hol-hr.png";
+import charHolHrOv from "../assets/project/char-hol-hr-overlay.png";
+import charHolHl from "../assets/project/char-hol-hl.png";
+import charHolHlOv from "../assets/project/char-hol-hl-overlay.png";
+
 type TProjectDescription = {
   category: string;
   title: string;
@@ -23,16 +30,83 @@ const Project = () => {
             </span>
           </h2>
           <div className="mt-7 h-1 w-12 rounded-full bg-blue-600 dark:bg-blue-400" />
-          <p className="mt-4 text-slate-600 dark:text-slate-400">
+          <p className="mt-4 text-slate-600 dark:text-slate-400 backdrop-blur-sm sm:backdrop-blur-none">
             {t("project.subtitle")}
           </p>
         </div>
       </div>
 
-      <div className="relative z-20 mx-auto mt-10 flex justify-center">
-        {/* //!Todo Placeholder
-        <span className="text-5xl drop-shadow-lg">Placeholder Bat 🦇</span>
-         */}
+      <div className="relative mt-10 flex justify-end-safe lg:justify-center">
+        <img
+          className="
+              absolute z-10 
+              lg:-top-7 lg:left-5/12 lg:h-10
+              md:-top-4 md:left-9/12 md:h-5
+              sm:-top-4 sm:left-9/12 sm:h-5
+              -top-4 h-4 left-8/12"
+          src={charHolHl}
+          alt="Character hand"
+        />
+        <img
+          className="
+            absolute z-10 
+            lg:-top-7 lg:left-5/12 lg:h-10
+            md:-top-4 md:left-9/12 md:h-5
+            sm:-top-4 sm:left-9/12 sm:h-5
+            -top-4 h-4 left-8/12
+            mix-blend-multiply opacity-20
+            hidden dark:flex dark:absolute
+            "
+          src={charHolHlOv}
+          alt="Character hand overlay"
+        />
+
+        <img
+          className="absolute 
+          lg:-top-43 lg:h-45
+          md:-top-30 md:h-30 
+          sm:-top-30 sm:h-30
+          -top-25 h-25
+          -z-2
+          "
+          src={charHolB}
+          alt="Character on card"
+        />
+        <img
+          className="absolute 
+          lg:-top-43 lg:h-45
+          md:-top-30 md:h-30 
+          sm:-top-30 sm:h-30
+          -top-25 h-25
+          -z-2
+          mix-blend-multiply opacity-20
+          hidden dark:flex
+          "
+          src={charHolBOv}
+          alt="Character on card overlay"
+        />
+        <img
+          className="absolute z-10 
+          lg:-top-7 lg:left-6/12 lg:h-10
+          md:-top-4 md:left-10/12 md:h-5
+          sm:-top-4 sm:left-10/12 sm:h-5
+          -top-4 h-4 left-9/12
+          "
+          src={charHolHr}
+          alt="Character on card"
+        />
+        <img
+          className="z-10 
+          lg:-top-7 lg:left-6/12 lg:h-10
+          md:-top-4 md:left-10/12 md:h-5
+          sm:-top-4 sm:left-10/12 sm:h-5
+          -top-4 h-4 left-9/12
+          mix-blend-multiply opacity-20
+          hidden dark:flex dark:absolute
+          "
+          src={charHolHrOv}
+          alt="Character on card"
+        />
       </div>
 
       <div className="-mt-2 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -46,7 +120,7 @@ const Project = () => {
                 bg-white/80
                 shadow-sm backdrop-blur-sm
                 transition duration-300
-                hover:-translate-y-2 hover:shadow-xl
+                hover:-translate-y-1 hover:shadow-xl
                 dark:border-blue-500/15
                 dark:bg-slate-900/40
                 dark:hover:border-blue-400/30

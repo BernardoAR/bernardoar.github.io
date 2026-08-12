@@ -73,7 +73,7 @@ const Header = () => {
           scrolled && "lg:hidden",
         )}
       >
-        {"</>"}
+        {"<BR/>"}
       </div>
       <nav>
         <button

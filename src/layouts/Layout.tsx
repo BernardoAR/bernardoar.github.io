@@ -25,7 +25,7 @@ const Layout = () => {
         <Header />
         <main className="px-6 space-y-20">
           {sections.map((section, idx) => (
-            <section key={idx} id={section.id} className="min-h-[85vh]">
+            <section key={idx} id={section.id} className="min-h-[90vh]">
               {section.page}
             </section>
           ))}
