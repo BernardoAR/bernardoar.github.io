@@ -20,8 +20,8 @@ const sections: Section[] = [
 ];
 const Layout = () => {
   return (
-    <section className="relative bg-slate-50 text-slate-950 transition-colors duration-500 dark:bg-slate-950/98 dark:text-white">
-      <div className="bg-linear-to-b dark:from-[rgb(4,11,32)] dark:to-[rgb(10,28,48)]">
+    <section className="relative bg-slate-200 text-slate-950 transition-colors duration-500 dark:bg-slate-950/98 dark:text-white">
+      <div className="bg-linear-to-b  to-[rgb(255,255,255)] dark:from-[rgb(4,11,32)] dark:to-[rgb(10,28,48)]">
         <Header />
         <main className="px-6 space-y-20">
           {sections.map((section, idx) => (
