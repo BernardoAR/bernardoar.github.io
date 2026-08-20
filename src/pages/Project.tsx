@@ -45,7 +45,8 @@ const Project = () => {
               sm:-top-4 sm:left-9/12 sm:h-5
               -top-4 h-4 left-8/12"
           src={charHolHl}
-          alt="Character hand"
+          alt="Character left hand"
+          loading="lazy"
         />
         <img
           className="
@@ -58,7 +59,8 @@ const Project = () => {
             hidden dark:flex dark:absolute
             "
           src={charHolHlOv}
-          alt="Character hand overlay"
+          alt="Character left hand overlay"
+          loading="lazy"
         />
 
         <img
@@ -71,6 +73,7 @@ const Project = () => {
           "
           src={charHolB}
           alt="Character on card"
+          loading="lazy"
         />
         <img
           className="absolute 
@@ -84,6 +87,7 @@ const Project = () => {
           "
           src={charHolBOv}
           alt="Character on card overlay"
+          loading="lazy"
         />
         <img
           className="absolute z-10 
@@ -93,7 +97,8 @@ const Project = () => {
           -top-4 h-4 left-9/12
           "
           src={charHolHr}
-          alt="Character on card"
+          alt="Character right hand"
+          loading="lazy"
         />
         <img
           className="z-10 
@@ -106,6 +111,7 @@ const Project = () => {
           "
           src={charHolHrOv}
           alt="Character on card"
+          loading="lazy"
         />
       </div>
 
