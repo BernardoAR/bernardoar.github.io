@@ -73,6 +73,7 @@
         "skills": [
           "AWS",
           "Docker",
+          "Java",
           "MySQL",
           "PostgreSQL",
           "PHP",
@@ -102,7 +103,7 @@
           "AWS",
           "Docker",
           "Google Cloud Platform (GCP)",
-          "Java (Android)",
+          "Java",
           "JavaScript",
           "MySQL",
           "Next.js",
@@ -110,6 +111,7 @@
           "PHP",
           "PostgreSQL",
           "Redux",
+          "Spring Framework",
           "Tailwind",
           "TypeScript"
         ]
